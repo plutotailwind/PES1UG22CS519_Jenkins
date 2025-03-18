@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o PES1UG22CS519-1 random.cpp' // Compile the C++ file
+                    sh 'g++ -o PES1UG22CS519-1 pes1ug22cs519.cpp' // Compile the C++ file
                 }
             }
         }
